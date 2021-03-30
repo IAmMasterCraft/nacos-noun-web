@@ -1,0 +1,108 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("../images/ExcosComponent.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.nacos-brand-text {
+    color: #048C0B !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nacos-brand-image {
+    max-width: 8%;
+    width: 50%;
+}
+
+.nav-social-icon {
+    color: #048C0B;
+    font-size: 30px;
+}
+
+
+/*override nav-link color*/
+
+.nav-link {
+    color: #048C0B !important;
+}
+
+
+/*override nav-item background*/
+
+.nav-item {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1.5px solid #048C0B !important;
+    border-right: 1.5px solid #048C0B !important;
+    border-radius: 3px;
+}
+
+.nav-item:hover {
+    border-top: 1.5px solid #048C0B !important;
+    border-left: 1.5px solid #048C0B !important;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25), inset -4px -4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.active-nav {
+    border-top: 1.5px solid #048C0B !important;
+    border-left: 1.5px solid #048C0B !important;
+    border-radius: 10px;
+}
+
+.national-title {
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 800;
+}
+
+.national-mail {
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.chapter-card {
+    border: 1.5px solid #048C0B !important;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.chapter-card:hover {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25), inset -10px -10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.chapter-title {
+    font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.chapter-mail {
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.exco-image {
+    border-radius: 50%;
+}
+
+.social-icon {
+    color: #048C0B !important;
+    font-size: calc(30px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.social-icon:hover {
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25), inset -4px -4px 2px rgba(0, 0, 0, 0.25);
+    border: 1.5px solid #048C0B !important;
+    border-radius: 5px;
+    padding: calc(3px + (5 - 3) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.copyright-footer {
+    color: #048C0B !important;
+    font-weight: 300;
+    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
+}

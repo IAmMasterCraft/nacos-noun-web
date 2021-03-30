@@ -1,0 +1,111 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("../images/HomeComponentBg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.nacos-brand-text {
+    color: #048C0B !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nacos-brand-image {
+    max-width: 8%;
+    width: 50%;
+}
+
+.nav-social-icon {
+    color: #048C0B;
+    font-size: 30px;
+}
+
+
+/*override nav-link color*/
+
+.nav-link {
+    color: #048C0B !important;
+}
+
+
+/*override nav-item background*/
+
+.nav-item {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1.5px solid #048C0B !important;
+    border-right: 1.5px solid #048C0B !important;
+    border-radius: 3px;
+}
+
+.nav-item:hover {
+    border-top: 1.5px solid #048C0B !important;
+    border-left: 1.5px solid #048C0B !important;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25), inset -4px -4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.main-title {
+    font-size: calc(40px + (50 - 40) * ((100vw - 300px) / (1600 - 300)));
+    color: #fff !important;
+    -webkit-text-stroke: 2.4px #048C0B;
+    font-weight: 800;
+}
+
+.motto {
+    font-size: calc(20px + (28 - 20) * ((100vw - 300px) / (1600 - 300)));
+    color: #fff !important;
+    -webkit-text-stroke: 1.4px #048C0B;
+    font-weight: 800;
+}
+
+.login-button {
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25), inset 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1.5px solid #048C0B !important;
+    width: 10rem;
+    color: #048C0B !important;
+    background: #fff !important;
+    width: calc(120px + (200 - 120) * ((100vw - 300px) / (1600 - 300)));
+    height: calc(60px + (80 - 60) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 700;
+    font-size: width: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.login-button:hover {
+    background: #048C0B !important;
+    color: #fff !important;
+}
+
+.register-button {
+    border: 1.5px solid #048C0B !important;
+    background: #048C0B !important;
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25), inset 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: calc(120px + (200 - 120) * ((100vw - 300px) / (1600 - 300)));
+    height: calc(60px + (80 - 60) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 700;
+    font-size: width: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.register-button:hover {
+    background: #fff !important;
+    color: #048C0B !important;
+}
+
+.copyright-footer {
+    color: #048C0B !important;
+    font-weight: 300;
+    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
+}
+
+font-size: calc(15px+(20 - 15) * ((100vw - 300px) / (1600 - 300)));
+
+}
