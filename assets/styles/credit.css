@@ -16,6 +16,7 @@ body {
     color: #048C0B !important;
     font-size: calc(15px + (30 - 15) * ((100vw - 300px) / (1600 - 300)));
     font-weight: bold;
+    display: contents;
 }
 
 .nacos-brand-image {
